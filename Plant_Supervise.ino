@@ -4,11 +4,11 @@
 #include <Wire.h>
 
 // 修改成上述寄到登入郵箱的 Token權杖號碼
-#define LINE_TOKEN "C8VXuQ3ubm2yV855mBjhb7fzw4m8ttwjqo7RmQ0q2i8"
+#define LINE_TOKEN "YOUTOKEN"
 
 // 設定無線基地台SSID跟密碼
-const char* ssid     = "davidhome"; //"KSHS";
-const char* password = "29960807"; //"KS=SERVE";
+const char* ssid     = "SSID"; 
+const char* password = "PASSWORD"; 
 
 unsigned long previousMillis = 0;        // will store last temp was read
 const long interval = 2000;              // interval at which to read sensor
